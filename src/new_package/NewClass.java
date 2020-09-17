@@ -1,4 +1,4 @@
-package NewPackage;
+package new_package;
 
 public class NewClass {
 }

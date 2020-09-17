@@ -36,8 +36,8 @@ public class FirstHomework {
         double accBalance = 225.13;
         System.out.println("Your account balance: $" + accBalance);
 
-        boolean sunRise = false;
-        System.out.println("This is " + sunRise + " that the sun rises from the west.");
+        boolean isSunRiseInWest = false;
+        System.out.println("This is " + isSunRiseInWest + " that the sun rises from the west.");
 
         char firstNameInit = 'D';
         char lastNameInit = 'S';
