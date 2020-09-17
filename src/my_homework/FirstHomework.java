@@ -40,11 +40,11 @@ public class FirstHomework {
         System.out.println("This is " + isSunRiseInWest + " that the sun rises from the west.");
 
         char firstNameInit = 'D';
-        char lastNameInit = 'S';
+        char lastNameInit = 'T';
         System.out.println("My initials are " + firstNameInit + lastNameInit);
 
-        String firstName = "Dmitrii";
-        String lastName = "Spirin";
+        String firstName = "Donald";
+        String lastName = "Trump";
         String fullName = firstName + " " + lastName;
         System.out.println("My full name is " + fullName);
 
