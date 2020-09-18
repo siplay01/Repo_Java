@@ -1,5 +1,7 @@
 package my_homework;
 
+import java.text.DecimalFormat;
+
 public class FirstHomework {
 
     public static void main(String[] args) {
@@ -15,6 +17,8 @@ public class FirstHomework {
          8. initials of your name (^Use: char) Hello World ---- HW  --- need 2 char variable
          9. Your full name
          */
+
+        DecimalFormat myFormatter = new DecimalFormat("###,###,###");
 
         // 1. number of hours in a day
         byte noOfHours = 24;
@@ -32,7 +36,9 @@ public class FirstHomework {
 
         // 4. population in a country
         long countryPopulation = 329877505L;
-        System.out.println(" and The United States population is " + countryPopulation + " people.");
+        String outputDecFormat = myFormatter.format(countryPopulation);
+        //System.out.println(value + " " + pattern + " " + output);
+        System.out.println(" and The United States population is " + outputDecFormat + " people.");
 
         // 5. interest rate
         float interestRate = 3.070f;
