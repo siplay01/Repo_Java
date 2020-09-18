@@ -37,7 +37,6 @@ public class FirstHomework {
         // 4. population in a country
         long countryPopulation = 329877505L;
         String outputDecFormat = myFormatter.format(countryPopulation);
-        //System.out.println(value + " " + pattern + " " + output);
         System.out.println(" and The United States population is " + outputDecFormat + " people.");
 
         // 5. interest rate
