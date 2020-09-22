@@ -1,4 +1,4 @@
-package new_package;
+package practice;
 public class PhraseOMatic {     //😎
         public static void main (String[] args) {
 

@@ -1,9 +1,9 @@
-package my_homework;
+package homework;
 
 import java.text.DecimalFormat;
 import java.util.Random;
 
-public class SecondHomework {
+public class Homework_2 {
     public static void main(String[] args) {
 
         Random random=new Random();
