@@ -4,10 +4,16 @@ public class length {
 
     public static void main(String[] args) {
 
-        String newStr = "Hello World!";
+        String[] listOfStr = {"Hello World!", "Good luck!", "Excuse me", "Thank you!", "I appreciate it", "Sounds great"};
 
-        int lengthOfStr = newStr.length();
+        int lengthOfList = listOfStr.length;
 
-        System.out.println("Length of '" + newStr + "' is " + lengthOfStr + " characters");
+        int random = (int) (Math.random() * lengthOfList);
+
+        String randomStr = listOfStr[random];
+
+        int lengthOfStr = randomStr.length();
+
+        System.out.println("Length of '" + randomStr + "' is " + lengthOfStr + " characters");
     }
 }
