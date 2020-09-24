@@ -6,8 +6,6 @@ public class IndexOf {
 
         String str = "The quick brown fox jumps over the lazy dog.";
 
-                // Get the index of all the characters of the alphabet
-                // starting from the beginning of the String.
                 int a = str.indexOf("a", 0);
                 int b = str.indexOf("b", 0);
                 int c = str.indexOf("c", 0);
@@ -35,7 +33,6 @@ public class IndexOf {
                 int y = str.indexOf("y", 0);
                 int z = str.indexOf("z", 0);
 
-                // Display the results of all the indexOf method calls.
                 System.out.println(" a  b c  d e  f  g h i  j");
                 System.out.println("=========================");
                 System.out.println(a + " " + b + " " + c + " " + d + " " + e + " " + f + " " + g + " " + h + " " + i + " " + j + "\n");
