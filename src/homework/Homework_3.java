@@ -40,7 +40,7 @@ public class Homework_3 {
             String[] myStArr = myStatement.split(" ");
             int numWords = myStArr.length;
 
-            System.out.println("In the statement '" + myStatement + "' is " + numWords + " words.");
+            System.out.println("In the statement '" + myStatement + "' - " + numWords + " words.");
 
             // 2.2 Replace all the 'r' characters with 'f' characters.
             System.out.println("All 'r' replaced by 'f' - " + myStatement.replaceAll("r", "f"));
@@ -81,7 +81,6 @@ public class Homework_3 {
             // * LSC
             String threeWordsSent = "Lab sessIONS clAsses";
             String[] threeWSArr = threeWordsSent.split(" ");
-            //int arrLength = threeWSArr.length;
             String[] arr1ToArr = threeWSArr[0].split("");
             String[] arr2ToArr = threeWSArr[1].split("");
             String[] arr3ToArr = threeWSArr[2].split("");
