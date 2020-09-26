@@ -11,7 +11,6 @@ public class WhileWithIfElse {
         String gender = input.nextLine();
 
         while (true){
-
             if (gender.equalsIgnoreCase("boy")) {
                 System.out.println("Congratulations! You are a BOY");
                 break;
@@ -21,7 +20,6 @@ public class WhileWithIfElse {
                 break;
             }
             else {
-
                 System.out.println("TRY AGAIN");
                 System.out.println("==========");
                 System.out.println("Are you a boy or a girl?");
