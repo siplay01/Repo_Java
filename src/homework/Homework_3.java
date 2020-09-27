@@ -39,7 +39,6 @@ public class Homework_3 {
             String myStatement = "I am a good programmer";
             String[] myStArr = myStatement.split(" ");
             int numWords = myStArr.length;
-
             System.out.println("In the statement '" + myStatement + "' - " + numWords + " words.");
 
             // 2.2 Replace all the 'r' characters with 'f' characters.
@@ -49,7 +48,11 @@ public class Homework_3 {
             // 3.1 Calculate the length of the first name, without using length() method of String class.
             String myFirstName = "Kevin";
             int nameLength = myFirstName.indexOf('n')+1;
-            System.out.println("Length of the name " + myFirstName + " is " + nameLength);
+            System.out.println("Length of the name " + myFirstName + " (by indexOf) is " + nameLength);
+
+            // or by length of array
+            String[] arrFName = myFirstName.split("");
+            System.out.println("Length of the name " + myFirstName + " (by length of array) is " + arrFName.length);
 
         // 4. String strNew = "hello dear, how are you?";
             // * Assign result (boolean) as true if length of strNew if greater than 10
