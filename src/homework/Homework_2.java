@@ -6,7 +6,7 @@ import java.util.Random;
 public class Homework_2 {
     public static void main(String[] args) {
 
-        Random random=new Random();
+        Random random = new Random();
 
         double fahrenheit = (random.nextInt(482)-32);
         double kelvin = (random.nextInt(646)-273);

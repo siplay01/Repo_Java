@@ -23,7 +23,7 @@ public class Homework_4 {
             double maxScore=160;
             double totalPS = (studentScore/maxScore)*100;
 
-            if (totalPS > 91 && totalPS < 100) {
+            if (totalPS >= 91 && totalPS < 100) {
                 System.out.println("Your percentage: " + myFormatter.format(totalPS) + " and your grade is: A");
             } else if (totalPS >= 81 && totalPS < 90) {
                 System.out.println("Your percentage: " + myFormatter.format(totalPS) + " and your grade is: B");
