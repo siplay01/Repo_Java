@@ -72,9 +72,9 @@ public class Homework_3 {
 
             threeWordsSentence = threeWordsSentence.toLowerCase();
             String[] sentenceArr = threeWordsSentence.split(" ");
-            String toCapital1 = sentenceArr[0].toUpperCase().charAt(0) + sentenceArr[0].substring(1, sentenceArr[0].length());
-            String toCapital2 = sentenceArr[1].toUpperCase().charAt(0) + sentenceArr[1].substring(1, sentenceArr[1].length());
-            String toCapital3 = sentenceArr[2].toUpperCase().charAt(0) + sentenceArr[2].substring(1, sentenceArr[2].length());
+            String toCapital1 = sentenceArr[0].toUpperCase().charAt(0) + sentenceArr[0].substring(1);
+            String toCapital2 = sentenceArr[1].toUpperCase().charAt(0) + sentenceArr[1].substring(1);
+            String toCapital3 = sentenceArr[2].toUpperCase().charAt(0) + sentenceArr[2].substring(1);
             threeWordsSentence = toCapital1 + " " + toCapital2 + " " + toCapital3;
 
             System.out.println(threeWordsSentence);
