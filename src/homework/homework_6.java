@@ -24,11 +24,16 @@ public class homework_6 {
 
     // 2. Create a method (NO return) that will print the index of given name in the given array
     public static void indexOfName(String[] strArr, String name) {
-
+        int indexOfName = 0;
         for (int i = 0; i < strArr.length; i++) {
-            if (name.equals(strArr[i])) {
-                System.out.println("Index of the given name in the array is: " + i);
+            if (name.equalsIgnoreCase(strArr[i])) {
+                indexOfName += i;
             }
+        }
+        if (indexOfName == 0) {
+            System.out.println("not in the list: Error -1");
+        } else {
+            System.out.println("Index of the given name in the array is: " + indexOfName);
         }
     }
 }
