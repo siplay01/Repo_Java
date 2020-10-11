@@ -4,7 +4,7 @@ public class Homework_7 {
     public static void main(String[] args) {
 
         // Case 1
-        Double[] array = {1182.01, 36., 478., 0.12, 604.23, 71., 2., 0.23, 347.87, 0.4, 0.5, 6.63, 26.0};
+        double[] array = {1182.01, 36, 478, 0.12, 604.23, 71, 2, 0.23, 347.87, 0.4, 0.5, 6.63, 26.0};
         System.out.println("Sum of array elements is " + sumOfArr(array));
 
         // Case 2
@@ -26,7 +26,7 @@ public class Homework_7 {
     }
 
     // 1. Create a method to add all the numbers in a array with double-values
-    public static double sumOfArr(Double[] array) {
+    public static double sumOfArr(double[] array) {
         double sum = 0;
         for (double i : array) {
             sum += i;
