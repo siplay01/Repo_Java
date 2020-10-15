@@ -7,7 +7,7 @@ public class RunPrinter {
         Printer printer = new Printer();
 
         printer.printerSummary();   // T: 100, P:100
-        printer.printSingle(33);
+        printer.printSingle(12);
         printer.printerSummary();   // T: 90, P:90
         printer.printDouble(25);
         printer.printerSummary();  // T: 80, P:85

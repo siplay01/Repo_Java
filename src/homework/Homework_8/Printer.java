@@ -32,7 +32,7 @@ public class Printer {
             System.out.println(amount + " single pages is printed.");
             checkToner();
         } else {
-            System.out.println("Error22");
+            System.out.println("Not enough paper or ink");
         }
     }
 
