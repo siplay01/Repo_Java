@@ -1,5 +1,7 @@
 package midterm;
 
+import java.util.Arrays;
+
 public class Midterm {
 
     /**
@@ -32,13 +34,29 @@ public class Midterm {
      * from given array.
      */
     public int missingSmallestPositiveInt(int[] array) {
-        int n = array.length+1;
-        int sum = n*(n+1)/2;
-        int restSum = 0;
-        for (int j : array) {
-            restSum = restSum + j;
+
+        Arrays.sort(array);
+        int max = array[array.length - 1];
+        int[] temp = new int[max];
+        int result = 0;
+
+
+        for (int i = 1; i < max; i++) {
+            int count = 0;
+            for (int j : array) {
+                if (j != i) {
+                    count++;
+                    temp[i - 1] = count;
+                }
+            }
         }
-        return sum-restSum;
+        for (int i = 0; i < temp.length; i++) {
+            if (temp[i] == array.length) {
+                result = i+1;
+                break;
+            }
+        }
+        return result;
     }
 
     /**

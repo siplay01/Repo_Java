@@ -11,7 +11,6 @@ public class MissingInt {
         int[] temp = new int[max];
         int result = 0;
 
-
         for (int i = 1; i < max; i++) {
             int count = 0;
             for (int j : array) {

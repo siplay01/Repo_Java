@@ -1,4 +1,4 @@
-package homework.Homework_8;
+package homework.homework_8;
 
 public class Printer {
 
